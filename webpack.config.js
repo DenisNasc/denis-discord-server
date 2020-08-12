@@ -13,7 +13,7 @@ module.exports = {
   },
   resolve: {
     alias: {
-      Images: path.resolve(__dirname, 'src/images/')
+      Services: path.resolve(__dirname, 'src/services/')
     }
   },
   devServer: {

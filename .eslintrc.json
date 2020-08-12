@@ -25,6 +25,7 @@
   },
   "plugins": ["prettier", "jest", "import"],
   "rules": {
+    "node/no-missing-require": [0, {}],
     "no-unused-vars": [1, {"vars": "all", "args": "after-used", "ignoreRestSiblings": false}],
     "node/no-unsupported-features/es-syntax": [0, {"version": ">=8.0.0", "ignores": []}],
     "node/no-unpublished-require": [2, {"allowModules": ["webpack-node-externals"]}]
