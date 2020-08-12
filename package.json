@@ -1,0 +1,38 @@
+{
+  "name": "denis-discord-server",
+  "version": "0.0.1",
+  "description": "bot para gerenciar meu servidor no discord",
+  "main": "index.js",
+  "repository": "https://github.com/DenisNasc/denis-discord-server",
+  "author": "Denis Nascimento",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  },
+  "scripts": {
+    "start": "NODE_ENV=development node src/index.js ",
+    "dev": "webpack-dev-server",
+    "build-dev": "NODE_ENV=development yarn webpack --config webpack.config.js",
+    "build-prod": "NODE_ENV=production yarn webpack --config webpack.config.js"
+  },
+  "devDependencies": {
+    "eslint": "^7.6.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jest": "^23.20.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "prettier": "^2.0.5",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-node-externals": "^2.5.1"
+  }
+}
